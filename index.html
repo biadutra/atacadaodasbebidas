@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo de Bebidas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+<body>
+
+  <button id="botao-menu-lateral" class="menu-lateral-toggle" aria-label="Abrir menu lateral">
+  ☰
+</button>
+
+<nav id="menu-lateral" class="menu-lateral">
+  <div class="fechar-menu" id="fechar-menu">×</div>
+  <ul>
+    <li><a href="#Refrigerantes Antarctica">Refrigerantes Antarctica</a></li>
+    <li><a href="#Refrigerantes Coca-Cola">Refrigerantes Coca-Cola</a></li>
+    <li><a href="#Refrigerantes Fanta/Kuat/Schweppes">Fanta / Kuat / Schweppes</a></li>
+    <li><a href="#Refrigerantes Pepsi">Pepsi</a></li>
+    <li><a href="#Refrigerantes Diversos">Refrigerantes Diversos</a></li>
+    <li><a href="#Isotônicos">Isotônicos</a></li>
+    <li><a href="#Energéticos">Energéticos</a></li>
+    <li><a href="#Água/Água de coco/Sucos">Água / Água de Coco / Sucos</a></li>
+    <li><a href="#Cervejas Antarctica">Cervejas Antarctica</a></li>
+    <li><a href="#Cervejas Becks">Cervejas Becks</a></li>
+    <li><a href="#Cervejas Heineken">Cervejas Heineken</a></li>
+    <li><a href="#Cervejas Budweiser">Cervejas Budweiser</a></li>
+    <li><a href="#Cervejas Skol">Cervejas Skol</a></li>
+    <li><a href="#Cervejas Brahma">Cervejas Brahma</a></li>
+    <li><a href="#Cerveja Bohemia">Cerveja Bohemia</a></li>
+    <li><a href="#Cerveja Itaipava">Cerveja Itaipava</a></li>
+    <li><a href="#Cervejas Polar">Cervejas Polar</a></li>
+    <li><a href="#Cervejas Schin">Cervejas Schin</a></li>
+    <li><a href="#Cervejas Kaiser">Cervejas Kaiser</a></li>
+    <li><a href="#Cervejas Império">Cervejas Império</a></li>
+    <li><a href="#Cervejas Amstel">Cervejas Amstel</a></li>
+    <li><a href="#Cervejas Diversas">Cervejas Diversas</a></li>
+    <li><a href="#Chopp Barril">Chopp Barril</a></li>
+    <li><a href="#Destilados/Ices/Diversos">Destilados / Ices / Diversos</a></li>
+    </ul>
+</nav>
+
+  <button class="menu-carrinho-mobile" id="btn-menu-carrinho" aria-label="Abrir carrinho" aria-expanded="false">
+    🛒
+  </button>
+
+  <header>
+    <div class="header-content">
+      <div class="header-centro">
+        <img src="img/logo-removebg-preview.png" alt="Logo" class="logo" />
+        <h1 class="titulo-centralizado">Catálogo de Bebidas</h1>
+      </div>
+      <div class="header-direita">
+        <div class="carrinho" id="carrinho">
+          <div class="carrinho-fechar" id="carrinho-fechar" aria-label="Fechar carrinho">
+            <span>&#8592;</span>
+          </div>
+          <h2>Carrinho</h2>
+          <ul id="itens-carrinho"></ul>
+          <div class="carrinho-footer">
+            <div id="total">Total: R$ 0,00</div>
+            <button class="btn-finalizar" id="finalizar-pedido" disabled>Finalizar Pedido</button>
+            <button class="btn-limpar-carrinho" id="limpar-carrinho">Limpar Carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<div id="mensagem-adicao" class="mensagem-oculta"></div>
+
+  <main>
+    <section id="produtos" class="produtos-grid"></section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
