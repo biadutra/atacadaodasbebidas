@@ -476,3 +476,8 @@ header {
   cursor: pointer;
   color: #ffcc00;
 }
+
+/* No seu style.css */
+body.no-scroll {
+  overflow: hidden;
+}
