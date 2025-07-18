@@ -17,6 +17,7 @@ const elementos = {
   fecharMenuLateral: document.getElementById('fechar-menu') // Renomeado para evitar confusão
 };
 
+
 // =======================
 // Produtos (Seus produtos completos aqui)
 // =======================
@@ -3760,7 +3761,6 @@ document.addEventListener('click', (e) => {
   }
 
   // Fechar carrinho ao clicar fora (Desktop e Mobile)
-  // Certifique-se de que o clique não é no botão de abrir ou dentro do carrinho
   if (
     elementos.carrinhoDiv.classList.contains('aberto') &&
     !elementos.carrinhoDiv.contains(e.target) &&
@@ -3773,7 +3773,7 @@ document.addEventListener('click', (e) => {
   if (
     elementos.menuLateral.classList.contains('aberto') &&
     !elementos.menuLateral.contains(e.target) &&
-    e.target !== elementos.botaoMenuLateral // Adicionado para o botão "☰"
+    e.target !== elementos.botaoMenuLateral
   ) {
     fecharMenuLateral();
   }
@@ -3791,7 +3791,7 @@ elementos.btnFinalizar.addEventListener('click', (e) => {
     .map(item => `Código: ${item.codigo} - ${item.nome} (${item.tipo}) - ${item.qtd}x - R$ ${(item.preco * item.qtd).toFixed(2)}`)
     .join('%0A')}%0A%0ATotal: R$ ${elementos.total.textContent.split('R$ ')[1]}`;
 
-  window.open(`https://wa.me/5511967022294?text=${mensagem}`, '_blank');
+  window.open(`https://wa.me/5511960202455?text=${mensagem}`, '_blank');
 });
 
 // =======================
