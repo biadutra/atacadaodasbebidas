@@ -3741,7 +3741,7 @@ elementos.btnFinalizar.addEventListener('click', (e) => {
     .map(item => `Código: ${item.codigo} - ${item.nome} (${item.tipo}) - ${item.qtd}x - R$ ${(item.preco * item.qtd).toFixed(2)}`)
     .join('%0A')}%0A%0ATotal: R$ ${elementos.total.textContent.split('R$ ')[1]}`;
 
-  window.open(`https://wa.me/5511960202455?text=${mensagem}`, '_blank');
+  window.open(`https://wa.me/5511967022294?text=${mensagem}`, '_blank');
 });
 
 // =======================
