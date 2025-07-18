@@ -6,8 +6,8 @@
 body {
   background-color: #000000;
   margin: 0;
-  padding: 20px;
   color: #222;
+  overflow-x: hidden; 
 }
 
 /* HEADER */
@@ -414,30 +414,33 @@ header {
   top: 0;
   left: -250px;
   width: 250px;
-  height: 100vh;
+  height: 100vh; 
   background-color: #111;
   color: white;
-  padding: 20px;
+  padding: 20px; 
   transition: left 0.3s ease-in-out;
   z-index: 1099;
   box-shadow: 4px 0 10px rgba(0,0,0,0.4);
-  /* Adicionado para flexbox e rolagem */
   display: flex;
   flex-direction: column;
+  box-sizing: border-box; 
 }
+
 
 .menu-lateral.aberto {
   left: 0;
 }
 
 .menu-lateral ul {
+  .menu-lateral ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* Adicionado para rolagem */
-  flex-grow: 1; /* Permite que a ul ocupe o espaço restante */
-  overflow-y: auto; /* Adiciona barra de rolagem vertical */
-  -webkit-overflow-scrolling: touch; /* Rolagem suave em iOS */
+  flex-grow: 1;
+  overflow-y: auto; 
+  -webkit-overflow-scrolling: touch;
+ 
+}
 }
 
 /* Estilização da barra de rolagem (opcional, para navegadores baseados em WebKit) */
