@@ -1099,7 +1099,7 @@ const produtos = [
     nome: "Energético Monster 473ml Lata",
     precoUnidade: 0,
     precoFardo: 40.0,
-    quantidadeFardo: 12,
+    quantidadeFardo: 6,
     img: "img/77712.jpg",
     temUnidade: false,   
     temFardo: true
@@ -1505,7 +1505,7 @@ const produtos = [
     nome: "Cerveja Heineken GRF 330ml",
     precoUnidade: 3.12,
     precoFardo: 18.72,
-    quantidadeFardo: 12,
+    quantidadeFardo: 6,
     img: "img/9201.jpeg",
     temUnidade: false,   
     temFardo: true
