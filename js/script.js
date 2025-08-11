@@ -1888,7 +1888,7 @@ const produtos = [
     nome: "Cerveja Skol Beats GRF 330ml",
     precoUnidade: 3.19,
     precoFardo: 38.28,
-    quantidadeFardo: 24,
+    quantidadeFardo: 6,
     img: "img/7521.jpg",
     temUnidade: false,   
     temFardo: true
