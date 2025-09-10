@@ -2581,7 +2581,7 @@ const produtos = [
     nome: "Cerveja Amstel 350 ML Lata",
     precoUnidade: 0,
     precoFardo: 28.50,
-    quantidadeFardo: 24,
+    quantidadeFardo: 12,
     img: "img/154003.jpg",
     temUnidade: false,   
     temFardo: true
