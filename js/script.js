@@ -1545,7 +1545,7 @@ const produtos = [
     nome: "Cerveja Heineken Lata 269ml",
     precoUnidade: 2.05,
     precoFardo: 16.40,
-    quantidadeFardo: 15,
+    quantidadeFardo: 8,
     img: "img/9204.jpg",
     temUnidade: false,   
     temFardo: true
